@@ -1,0 +1,62 @@
+* {
+    border: 0;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.head h1 {
+    color: #E15C5C;
+}
+
+nav ul {
+    display: flex;
+    float: right;
+    margin: 20px;
+}
+
+li {
+    list-style-type: none;
+    margin: 0 2vw; 
+}
+
+a {
+    text-decoration: none;
+    color: #E15C5C;
+}
+
+nav {
+    width: 100vw;
+    height: 50px;
+    
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    height: 100px;
+
+}
+
+.show_skills::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+.skillbox {
+    height: 100px;
+    display: flex;
+    background-color: Gray;
+    color: white;
+    font-size: 2rem;
+}
+
+
