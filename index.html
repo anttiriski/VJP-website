@@ -7,68 +7,96 @@
     <link rel="stylesheet" href="/style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="">Skills</a>
-                </li>
-                <li>
-                    <a href="">Projects</a> 
-                </li>
-            </ul>
-        </nav>
-    </header>
+    <div class="background">
 
-    <div class="head">
-        <h1>Student & Developer</h1>
     </div>
 
+
+    <article>
+        <div class="head">
+            <h1 style="text-align: center;">Student & Developer</h1>
+        </div>
+        <div class="about_wrapper">
+            <img class="imgg" src="/picture.jpg" alt="Picture">
+            <div class="about">
+                <div style="margin: 0px 20px; font-size: 30px;">
+                    Hi there, my name is Antti.
+                </div>
+                <div style="margin: 20px; font-size: 25px;">
+                    University student at Information networks focusing on developing and building cool stuff.
+                </div>
+                <div style="font-size: 25px;">
+                    If you have any questions, please contact antti.riski@aalto.fi
+                </div>
+                <div>
+                    <ul>
+                        <li>
+                            <a href="https://github.com/anttiriski"><i class="fab fa-github fa-2x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/antti-riski-b4637319a/"><i class="fab fa-linkedin fa-2x"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <p style="text-align: center; color: white; font-size: 20px;"></p>
+    </article>
     
     <section class="Skills">
-        <div class="skillbox">Skills</div>
+        <div class="skillbox" style="color: white;">Skills</div>
         <div class="show_skills">
             <div class="column">
-                Frameworks
+                <h5>Frameworks</h5>
+                <i class="fas fa-laptop fa-2x"></i>
+                <div class="list">React</div>
             </div>
             <div class="column">
-                Languages
+                <h5>Languages</h5>
+                <i class="fas fa-code fa-2x"></i>
+                <div class="list">HTML, CSS</div>
+                <div class="list">JavaSript</div>
+                <div class="list">Scala</div>
             </div>
             <div class="column">
-                Backend & Databases
+                <h5>Backend & Databases</h5>
+                <i class="fas fa-server fa-2x"></i>
+                <div class="list">Node.js</div>
+                <div class="list">MySQL</div>
+                <div class="list">MongoDB</div>
             </div>
         </div>
     </section>
-    <section class="Projects">
-        <div>
-            <div>
+
+        <div class="projects">
+            <div class="projectbox" style="color: white;">
                 Projects
             </div>
-            <div>
 
-            </div>
-            <div class="project1">
-
-
-            </div>
-            <div class="project2">
-
+            <div class="project_wrapper">
+                <div class="project1">
+                    <div class="card_header">My website!</div>
+                    <div class="info">HTML, CSS & Javascipt</div>
+                    <div class="button_wrapper">
+                        <button class="button">Demo</button>
+                        <button class="button">Learn more</button>
+                    </div>
+                </div>
+                <div class="project2">
+                    <div class="card_header">Project 2</div>
+                    <div class="info">Node.js, MongoDB</div>
+                    <div class="button_wrapper">
+                        <button class="button">Demo</button>
+                        <button class="button">Learn more</button>
+                    </div>
+                </div>
             </div>
         </div>
-    </section>
     <footer>
-        <div>
-            <ul>
-                <li>
-                    Phone: 040 3522771
-                </li>
-                <li>
-                    Email: antti.riski@aalto.fi
-                </li>
-            </ul>
-        </div>
     </footer>
 </body>
 </html>
