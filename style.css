@@ -1,5 +1,8 @@
 * {
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
 /*---------HEADER-------- */
@@ -30,8 +33,30 @@ a {
     margin-top: 300px;
 }
 
+.header h1 {
+    font-size: 70px;
+}
+
+.header h3 {
+    font-size: 70px; 
+    color: #303030;
+}
+
 .wrapper {
     margin-top: 500px;
+}
+
+.about1 {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin: 100px 0;
+}
+
+.about2 {
+    font-size: 40px;
+    color: white;
+    text-align: center;
 }
 /* ------------------------*/
 
@@ -95,17 +120,6 @@ a {
     margin: 25px;
 }
 
-@media screen and (max-width: 600px) {
-    .column h5 {
-      font-size: 18px;
-    }
-  }
-
-@media screen and (max-width: 740px) {
-    .imgg {
-        width: 15em;
-    }
-  }
 
 /*------------------------- */
 
@@ -117,7 +131,7 @@ a {
 
 .project1, .project2 {
     padding: 1rem;
-    height: 15rem;
+    height: 18rem;
     border-style: solid;
     border-color: #303030;
     text-align: center;
@@ -150,29 +164,23 @@ a {
 .button_wrapper {
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 100px;
 }
 
 .btn btn-outline-dark {
     display: flex;
-    float: left;
-    width: 35%;
-    height: 60px;
+    width: 35em;
+    height: 20em;
     background-color: white;
     border-radius: 10px;
-    margin: 60px 0px;
-    justify-content: space-evenly;
     cursor: pointer;
-    font-size: 22px;
+    font-size: 50px;
 }
 
 
 .project1:hover, .project2:hover {
     transform: scale(0.96, 0.96);
   }
-@media (min-width: 700px) {
-    .project_wrapper { grid-template-columns: repeat(2, 1fr); }
-  }
+
 /*------------------------- */
 
 /*-------- BACKGROUND------ */
@@ -229,18 +237,7 @@ img {
     z-index: 1000;
 }
 
-.about1 {
-    font-size: 40px;
-    color: white;
-    text-align: center;
-    margin: 100px 0;
-}
 
-.about2 {
-    font-size: 40px;
-    color: white;
-    text-align: center;
-}
 
 .about_wrapper {
     margin-top: 1000px;
@@ -263,4 +260,91 @@ img {
     margin-right:10px;
     margin: 0px;
     z-index: 10001;
+}
+
+/* --------- MEDIAS -----------*/
+
+@media screen and (max-width: 900px) {
+
+    .show_skills {
+        display: grid;
+        margin: auto;
+    }
+
+
+    .column {
+        margin: 15px;
+        width: 25rem;
+        border-radius: 10px;
+    }
+
+    .column:nth-child(2) {
+        border-style: solid;
+        border-color: #303030;
+    }
+}
+
+
+
+@media (min-width: 760px) {
+    .project_wrapper { grid-template-columns: repeat(2); }
+  
+}
+
+@media screen and (max-width: 740px) {
+    .imgg {
+        width: 20em;
+    }
+
+    .header h1 {
+        font-size: 40px;
+    }
+
+    .header h3 {
+        font-size: 40px; 
+    }
+
+  }
+
+
+  
+@media screen and (max-width: 600px) {
+    .column h5 {
+      font-size: 18px;
+    }
+
+    .imgg {
+        width: 15em;
+    }
+
+  }
+
+
+@media screen and (max-width: 450px) {
+    .column {
+        width: 15rem;
+    }
+    
+    .about2 {
+        font-size: 20px;
+        color: white;
+    }
+
+    .project2, .project1 {
+        width: 20em;
+    }
+
+    .project_wrapper {
+        justify-content: center;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 330px) {
+    .column {
+        width: 10rem;
+    }
 }
