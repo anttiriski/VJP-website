@@ -30,7 +30,7 @@ a {
     color: white;
     width: 100%;
     text-align: center;
-    margin-top: 300px;
+    margin-top: 20em;
 }
 
 .header h1 {
@@ -237,8 +237,6 @@ img {
     z-index: 1000;
 }
 
-
-
 .about_wrapper {
     margin-top: 1000px;
     z-index: 1000;
@@ -294,6 +292,7 @@ img {
 @media screen and (max-width: 740px) {
     .imgg {
         width: 20em;
+        z-index: 1000;
     }
 
     .header h1 {
@@ -339,9 +338,6 @@ img {
     }
 
 }
-
-
-
 
 @media screen and (max-width: 330px) {
     .column {
