@@ -282,13 +282,6 @@ img {
     }
 }
 
-
-
-@media (min-width: 760px) {
-    .project_wrapper { grid-template-columns: repeat(2); }
-  
-}
-
 @media screen and (max-width: 740px) {
     .imgg {
         width: 20em;
